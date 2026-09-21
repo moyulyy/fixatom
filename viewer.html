@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FixAtoms · Structure</title>
+  <style>
+    html, body { margin: 0; width: 100%; height: 100%; overflow: hidden; background: #f8fafc; font-family: 'Segoe UI', 'Microsoft YaHei UI', sans-serif; }
+    #viewer { position: absolute; inset: 0; }
+    #selection-layer { position: absolute; inset: 0; display: none; cursor: crosshair; touch-action: none; }
+    #selection { display: none; position: absolute; border: 1.5px solid #007aff; background: #007aff18; border-radius: 5px; pointer-events: none; }
+    #empty { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; pointer-events: none; color: #8591a5; }
+    #empty .orb { width: 90px; height: 90px; border-radius: 50%; border: 1px solid #d3dfed; box-shadow: inset -14px -14px 28px #dde7f3, 0 15px 50px #d7e4f540; background: #f5f9ff; margin-bottom: 24px; }
+    #empty strong { color: #43536c; font-size: 22px; font-weight: 500; margin-bottom: 10px; }
+    #empty span { font-size: 13px; }
+    #hint { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); border: 1px solid #e4eaf2; background: #ffffffeb; border-radius: 18px; padding: 9px 18px; color: #64748b; font-size: 12px; white-space: nowrap; pointer-events: none; }
+    #axes { position: absolute; top: 20px; left: 22px; font-size: 11px; letter-spacing: 2px; color: #94a3b8; pointer-events: none; }
+    #projection-note { position: absolute; top: 42px; left: 22px; font-size: 11px; color: #97a6b9; pointer-events: none; }
+    #legend { position: absolute; top: 16px; right: 16px; z-index: 3; padding: 12px 14px; border: 1px solid #e2e9f2; border-radius: 14px; background: #ffffffee; box-shadow: 0 5px 20px #1c355608; max-width: 220px; }
+    #legend[hidden] { display: none; }
+    .legend-title { color: #8594a8; font-size: 10px; letter-spacing: 1.5px; margin-bottom: 9px; }
+    #legend-entries { max-height: min(240px, 35vh); overflow-y: auto; }
+    .legend-row { display: flex; align-items: center; gap: 9px; padding: 5px 0; font-size: 12px; color: #30445f; }
+    .legend-ball { width: 16px; height: 16px; flex: 0 0 16px; border-radius: 50%; border: 1px solid #20375420; box-shadow: inset -3px -3px 4px #00000020; background-image: radial-gradient(circle at 30% 25%, #ffffff85, transparent 65%); }
+    .legend-detail { color: #8996a8; font-size: 11px; margin-left: auto; padding-left: 8px; white-space: nowrap; }
+  </style>
+  <script src="3Dmol-min.js"></script>
+  <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+</head>
+<body>
+  <div id="viewer"></div>
+  <div id="empty"><div class="orb"></div><strong>从一个结构开始</strong><span>打开或拖入 CIF、POSCAR、XSD 文件</span></div>
+  <div id="axes">INTERACTIVE STRUCTURE / Å</div>
+  <div id="projection-note">正交投影</div>
+  <div id="selection-layer"><div id="selection"></div></div>
+  <aside id="legend" hidden><div class="legend-title">元素 / ELEMENTS</div><div id="legend-entries"></div></aside>
+  <div id="hint">拖动旋转 · 滚轮缩放 · 右键拖动平移</div>
+  <script src="viewer.js"></script>
+</body>
+</html>

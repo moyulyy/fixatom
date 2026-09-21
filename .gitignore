@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+tests/artifacts/
+.fixatoms-*
+ball_settings.json
+ball_settings.json.tmp
+build/
+dist/
+build-*.log
+*.lnk

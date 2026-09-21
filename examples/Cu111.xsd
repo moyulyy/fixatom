@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<XSD Version="6.0">
+	<AtomisticTreeRoot ID="1" NumProperties="40" NumChildren="1">
+		<Property DefinedOn="ClassicalEnergyHolder" Name="AngleEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="BendBendEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="BendTorsionBendEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="BondEnergy" Type="Double"/>
+		<Property DefinedOn="Atom" Name="EFGAsymmetry" Type="Double"/>
+		<Property DefinedOn="Atom" Name="EFGQuadrupolarCoupling" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="ElectrostaticEnergy" Type="Double"/>
+		<Property DefinedOn="GrowthFace" Name="FaceMillerIndex" Type="MillerIndex"/>
+		<Property DefinedOn="GrowthFace" Name="FacetTransparency" Type="Float"/>
+		<Property DefinedOn="Bondable" Name="Force" Type="CoDirection"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="HydrogenBondEnergy" Type="Double"/>
+		<Property DefinedOn="Bondable" Name="ImportOrder" Type="UnsignedInteger"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="InversionEnergy" Type="Double"/>
+		<Property DefinedOn="Atom" Name="IsBackboneAtom" Type="Boolean"/>
+		<Property DefinedOn="Atom" Name="IsChiralCenter" Type="Boolean"/>
+		<Property DefinedOn="Atom" Name="IsOutOfPlane" Type="Boolean"/>
+		<Property DefinedOn="BestFitLineMonitor" Name="LineExtentPadding" Type="Double"/>
+		<Property DefinedOn="Linkage" Name="LinkageGroupName" Type="String"/>
+		<Property DefinedOn="PropertyList" Name="ListIdentifier" Type="String"/>
+		<Property DefinedOn="Atom" Name="NMRShielding" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="NonBondEnergy" Type="Double"/>
+		<Property DefinedOn="Bondable" Name="NormalMode" Type="Direction"/>
+		<Property DefinedOn="Bondable" Name="NormalModeFrequency" Type="Double"/>
+		<Property DefinedOn="Bondable" Name="OrbitalCutoffRadius" Type="Double"/>
+		<Property DefinedOn="BestFitPlaneMonitor" Name="PlaneExtentPadding" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="PotentialEnergy" Type="Double"/>
+		<Property DefinedOn="ScalarFieldBase" Name="QuantizationValue" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="RestraintEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="SeparatedStretchStretchEnergy" Type="Double"/>
+		<Property DefinedOn="Trajectory" Name="SimulationStep" Type="Integer"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="StretchBendStretchEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="StretchStretchEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="StretchTorsionStretchEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="TorsionBendBendEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="TorsionEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="TorsionStretchEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="ValenceCrossTermEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="ValenceDiagonalEnergy" Type="Double"/>
+		<Property DefinedOn="ClassicalEnergyHolder" Name="VanDerWaalsEnergy" Type="Double"/>
+		<Property DefinedOn="SymmetrySystem" Name="_Stress" Type="Matrix"/>
+		<Molecule ID="2" NumChildren="64" Name="Lattice=&amp;quot1.0">
+			<Atom3d ID="3" Name="Cu1" UserID="1" DisplayStyle="CPK" XYZ="0.0000000000000000,0.0000000000000000,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="4" Name="Cu2" UserID="2" DisplayStyle="CPK" XYZ="2.5526554800834367,0.0000000000000000,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="5" Name="Cu3" UserID="3" DisplayStyle="CPK" XYZ="5.1053109601668734,0.0000000000000000,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="6" Name="Cu4" UserID="4" DisplayStyle="CPK" XYZ="7.6579664402503100,0.0000000000000000,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="7" Name="Cu5" UserID="5" DisplayStyle="CPK" XYZ="1.2763277400417183,2.2106644928618180,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="8" Name="Cu6" UserID="6" DisplayStyle="CPK" XYZ="3.8289832201251550,2.2106644928618180,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="9" Name="Cu7" UserID="7" DisplayStyle="CPK" XYZ="6.3816387002085921,2.2106644928618180,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="10" Name="Cu8" UserID="8" DisplayStyle="CPK" XYZ="8.9342941802920279,2.2106644928618180,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="11" Name="Cu9" UserID="9" DisplayStyle="CPK" XYZ="0.0000000000000000,4.4213289857236360,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="12" Name="Cu10" UserID="10" DisplayStyle="CPK" XYZ="2.5526554800834367,4.4213289857236360,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="13" Name="Cu11" UserID="11" DisplayStyle="CPK" XYZ="5.1053109601668734,4.4213289857236360,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="14" Name="Cu12" UserID="12" DisplayStyle="CPK" XYZ="7.6579664402503100,4.4213289857236360,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="15" Name="Cu13" UserID="13" DisplayStyle="CPK" XYZ="1.2763277400417183,6.6319934785854535,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="16" Name="Cu14" UserID="14" DisplayStyle="CPK" XYZ="3.8289832201251550,6.6319934785854535,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="17" Name="Cu15" UserID="15" DisplayStyle="CPK" XYZ="6.3816387002085921,6.6319934785854535,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="18" Name="Cu16" UserID="16" DisplayStyle="CPK" XYZ="8.9342941802920279,6.6319934785854535,9.0000000000000000" Components="Cu"/>
+			<Atom3d ID="19" Name="Cu17" UserID="17" DisplayStyle="CPK" XYZ="1.2763277400417183,0.7368881642872727,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="20" Name="Cu18" UserID="18" DisplayStyle="CPK" XYZ="3.8289832201251550,0.7368881642872727,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="21" Name="Cu19" UserID="19" DisplayStyle="CPK" XYZ="6.3816387002085921,0.7368881642872727,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="22" Name="Cu20" UserID="20" DisplayStyle="CPK" XYZ="8.9342941802920279,0.7368881642872727,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="23" Name="Cu21" UserID="21" DisplayStyle="CPK" XYZ="0.0000000000000000,2.9475526571490906,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="24" Name="Cu22" UserID="22" DisplayStyle="CPK" XYZ="2.5526554800834367,2.9475526571490906,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="25" Name="Cu23" UserID="23" DisplayStyle="CPK" XYZ="5.1053109601668734,2.9475526571490906,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="26" Name="Cu24" UserID="24" DisplayStyle="CPK" XYZ="7.6579664402503100,2.9475526571490906,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="27" Name="Cu25" UserID="25" DisplayStyle="CPK" XYZ="1.2763277400417183,5.1582171500109091,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="28" Name="Cu26" UserID="26" DisplayStyle="CPK" XYZ="3.8289832201251550,5.1582171500109091,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="29" Name="Cu27" UserID="27" DisplayStyle="CPK" XYZ="6.3816387002085921,5.1582171500109091,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="30" Name="Cu28" UserID="28" DisplayStyle="CPK" XYZ="8.9342941802920279,5.1582171500109091,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="31" Name="Cu29" UserID="29" DisplayStyle="CPK" XYZ="0.0000000000000000,7.3688816428727266,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="32" Name="Cu30" UserID="30" DisplayStyle="CPK" XYZ="2.5526554800834367,7.3688816428727266,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="33" Name="Cu31" UserID="31" DisplayStyle="CPK" XYZ="5.1053109601668734,7.3688816428727266,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="34" Name="Cu32" UserID="32" DisplayStyle="CPK" XYZ="7.6579664402503100,7.3688816428727266,11.0842344717745487" Components="Cu"/>
+			<Atom3d ID="35" Name="Cu33" UserID="33" DisplayStyle="CPK" XYZ="0.0000000000000000,1.4737763285745453,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="36" Name="Cu34" UserID="34" DisplayStyle="CPK" XYZ="2.5526554800834367,1.4737763285745453,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="37" Name="Cu35" UserID="35" DisplayStyle="CPK" XYZ="5.1053109601668734,1.4737763285745453,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="38" Name="Cu36" UserID="36" DisplayStyle="CPK" XYZ="7.6579664402503100,1.4737763285745453,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="39" Name="Cu37" UserID="37" DisplayStyle="CPK" XYZ="1.2763277400417183,3.6844408214363629,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="40" Name="Cu38" UserID="38" DisplayStyle="CPK" XYZ="3.8289832201251550,3.6844408214363629,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="41" Name="Cu39" UserID="39" DisplayStyle="CPK" XYZ="6.3816387002085921,3.6844408214363629,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="42" Name="Cu40" UserID="40" DisplayStyle="CPK" XYZ="8.9342941802920279,3.6844408214363629,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="43" Name="Cu41" UserID="41" DisplayStyle="CPK" XYZ="0.0000000000000000,5.8951053142981813,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="44" Name="Cu42" UserID="42" DisplayStyle="CPK" XYZ="2.5526554800834367,5.8951053142981813,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="45" Name="Cu43" UserID="43" DisplayStyle="CPK" XYZ="5.1053109601668734,5.8951053142981813,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="46" Name="Cu44" UserID="44" DisplayStyle="CPK" XYZ="7.6579664402503100,5.8951053142981813,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="47" Name="Cu45" UserID="45" DisplayStyle="CPK" XYZ="1.2763277400417183,8.1057698071599997,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="48" Name="Cu46" UserID="46" DisplayStyle="CPK" XYZ="3.8289832201251550,8.1057698071599997,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="49" Name="Cu47" UserID="47" DisplayStyle="CPK" XYZ="6.3816387002085921,8.1057698071599997,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="50" Name="Cu48" UserID="48" DisplayStyle="CPK" XYZ="8.9342941802920279,8.1057698071599997,13.1684689435490974" Components="Cu"/>
+			<Atom3d ID="51" Name="Cu49" UserID="49" DisplayStyle="CPK" XYZ="0.0000000000000000,0.0000000000000000,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="52" Name="Cu50" UserID="50" DisplayStyle="CPK" XYZ="2.5526554800834367,0.0000000000000000,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="53" Name="Cu51" UserID="51" DisplayStyle="CPK" XYZ="5.1053109601668734,0.0000000000000000,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="54" Name="Cu52" UserID="52" DisplayStyle="CPK" XYZ="7.6579664402503100,0.0000000000000000,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="55" Name="Cu53" UserID="53" DisplayStyle="CPK" XYZ="1.2763277400417183,2.2106644928618180,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="56" Name="Cu54" UserID="54" DisplayStyle="CPK" XYZ="3.8289832201251550,2.2106644928618180,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="57" Name="Cu55" UserID="55" DisplayStyle="CPK" XYZ="6.3816387002085921,2.2106644928618180,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="58" Name="Cu56" UserID="56" DisplayStyle="CPK" XYZ="8.9342941802920279,2.2106644928618180,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="59" Name="Cu57" UserID="57" DisplayStyle="CPK" XYZ="0.0000000000000000,4.4213289857236360,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="60" Name="Cu58" UserID="58" DisplayStyle="CPK" XYZ="2.5526554800834367,4.4213289857236360,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="61" Name="Cu59" UserID="59" DisplayStyle="CPK" XYZ="5.1053109601668734,4.4213289857236360,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="62" Name="Cu60" UserID="60" DisplayStyle="CPK" XYZ="7.6579664402503100,4.4213289857236360,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="63" Name="Cu61" UserID="61" DisplayStyle="CPK" XYZ="1.2763277400417183,6.6319934785854535,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="64" Name="Cu62" UserID="62" DisplayStyle="CPK" XYZ="3.8289832201251550,6.6319934785854535,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="65" Name="Cu63" UserID="63" DisplayStyle="CPK" XYZ="6.3816387002085921,6.6319934785854535,15.2527034153236478" Components="Cu"/>
+			<Atom3d ID="66" Name="Cu64" UserID="64" DisplayStyle="CPK" XYZ="8.9342941802920279,6.6319934785854535,15.2527034153236478" Components="Cu"/>
+		</Molecule>
+	</AtomisticTreeRoot>
+</XSD>
